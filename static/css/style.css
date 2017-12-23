@@ -593,6 +593,19 @@ textarea::-ms-input-placeholder
 
 }
 
+.example-control {
+    position: relative;
+    z-index: 0;
+    float: left;
+    width: 100%;
+    height: 40px;
+	background: #102429;
+	color: #fff;
+	border-width: 0px;
+	font-size: 20px;
+
+}
+
 .home-content .home-contact label {
     position: relative;
     z-index: 2;
@@ -636,6 +649,17 @@ textarea::-ms-input-placeholder
     margin: 10px auto;
     padding-bottom: 20px;
 }
+
+/* label_control*/
+.label_control {
+	height: 50px;
+	background-color: #087A70;
+	text-align: center;
+	color: #DC143C;
+	font-size: 20px;
+	margin: 10px auto;
+}
+
 
 /* features  section */
 
