@@ -11,7 +11,8 @@ from django.shortcuts import render
 pos, neg = 0, 1
 clf = Message_Classcifier()
 clf.load_model('final_model')
-
+clf.selected_features.pop(u'您好')
+clf.selected_features.pop(u'你好')
 
 def index(request):
     context = {}
